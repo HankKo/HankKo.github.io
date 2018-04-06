@@ -1,0 +1,19 @@
+<style type="text/css">
+	
+
+</style>
+<script type="text/javascript">
+	function getData(){
+		var req=new XMLHttpRequest();
+		req.open("get","https://hankko.github.io/test.html")
+		req.onload=function(){
+			alert(this.responseText);
+		}
+		req.send()
+	}
+</script>
+
+<div>
+	<span onclick="getData()">test</span>
+</div>
+
