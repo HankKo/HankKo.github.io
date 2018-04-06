@@ -5,7 +5,8 @@
 <script type="text/javascript">
 	function getData(){
 		var req=new XMLHttpRequest();
-		req.open("get","https://hankko.github.io/test.html")
+		//req.open("get","https://hankko.github.io/test.html")
+		req.open("get","http://www.pty.moj.gov.tw/lp.asp?CtNode=47207&CtUnit=19172&BaseDSD=7&mp=040");
 		req.onload=function(){
 			alert(this.responseText);
 		}
